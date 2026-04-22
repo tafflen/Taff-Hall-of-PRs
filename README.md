@@ -11,7 +11,7 @@ This is a beginner-friendly open source project designed to help students make t
 ## 🌐 Live Website
 
 👉 [View PR Celebration Wall](#)
-*(Replace with your GitHub Pages link)*
+*https://parulprashar.github.io/Hall-of-PRs/*
 
 ---
 
@@ -65,33 +65,30 @@ cd REPO-NAME
 
 ### 4. Add your card
 
-Go to the file where cards are present (e.g. `index.html`)
+Go to the file `index.html`)
 
 Copy this template:
 
 ```html
-<div class="card">
+   <div class="card">
+            <div class="badge">
+                <div class="medal"><span class="number">1</span></div>
+                <p class="badge-text">FIRST PR</p>
+            </div>
 
-  <div class="badge">
-    <div class="medal">
-      <span class="number">1</span>
+            <h2 class="name">YOUR NAME</h2>
+            <p class="bio">YOUR BIO (refer: bio.txt for more options, keep it to 12 words for best design)</p>
+            <p class="credit">#FirstPR with Parul Prashar</p>
+            <button class="celebrate-btn" onclick="showPopup()">
+              Celebrate 🎉
+            </button>
     </div>
-    <p class="badge-text">FIRST PR</p>
-  </div>
-
-  <h2 class="name">Your Name</h2>
-
-  <p class="bio">Your one-liner (max 10–12 words)</p>
-
-  <p class="credit">#FirstPR</p>
-
-</div>
 ```
 
 👉 Paste it at the correct place and replace:
 
 * Your Name
-* Your one-liner
+* Your one-liner (you may refer to file ChooseYourBio.txt)
 
 ---
 
@@ -138,11 +135,18 @@ Once your PR is accepted:
 ```text
 🚀 I just made my FIRST Open Source Contribution!
 
-From learning GitHub to creating my first Pull Request — this feels amazing!
+From understanding GitHub to creating my first Pull Request — this feels unreal 🤯
 
-✅ My name is now LIVE on a real website  
-✅ I made my first PR  
-✅ This is just the beginning!
+✅ My name is now LIVE on a real website
+✅ My GitHub graph just turned GREEN
+✅ And this is just the beginning!
+
+Huge thanks to @Parul Prashar for making this beginner-friendly 🚀
+
+If you're starting out, THIS is your sign to begin.
+
+🔗 Check it out: https://parulprashar.github.io/Hall-of-PRs/
+🎥 Tutorial I followed: https://www.youtube.com/watch?v=DPShl8GWqS8
 
 #FirstPR #OpenSource #GitHub #LearningInPublic
 ```
